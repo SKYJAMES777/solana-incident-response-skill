@@ -39,7 +39,7 @@ Never provide seed phrases, private keys, keypair files, session tokens, or wall
 ## Tests
 
 ```bash
-node --test --test-isolation=none tests/repository.test.mjs tests/snapshot.test.mjs
+npm test
 uv run --python 3.12 ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py skill
 ```
 
