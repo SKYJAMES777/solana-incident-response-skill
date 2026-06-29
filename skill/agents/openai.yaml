@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solana Incident Response"
+  short_description: "Read-only triage for Solana incidents"
+  default_prompt: "Use $solana-incident-response to triage this Solana incident, preserve evidence, and propose safe next actions."
